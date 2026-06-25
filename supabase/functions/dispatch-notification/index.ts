@@ -7,7 +7,7 @@ const corsHeaders = {
 };
 
 const N8N_WEBHOOK_URL =
-  "https://libertyharborai.app.n8n.cloud/webhook/99132d67-65b5-4095-8931-f363e8849910";
+  "https://libertyharborai.app.n8n.cloud/webhook/ompany-test-0625";
 
 type Recipient = {
   id: string;
