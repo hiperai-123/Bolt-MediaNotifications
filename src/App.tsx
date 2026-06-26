@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Anchor, Send, Loader2, Sparkles, Activity, Wifi, WifiOff } from 'lucide-react';
+import { Send, Loader2, Sparkles, Activity, Wifi, WifiOff } from 'lucide-react';
 import { supabase, listFlyers, loadContacts, type Template, type Contact } from '../lib/supabase';
 import { AudiencePanel } from './components/AudiencePanel';
 import { TemplateGallery } from './components/TemplateGallery';
@@ -209,9 +209,7 @@ function App() {
       <header className="bg-white border-b border-slate-200 sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/90">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-brand-400 to-cyan-400 rounded-lg flex items-center justify-center shadow-sm">
-              <Anchor className="w-5 h-5 text-white" strokeWidth={2.25} />
-            </div>
+            <img src="/cropped-LH-LOGO-WEBP.png" alt="Liberty Harbor" className="w-10 h-10 rounded-lg shadow-sm object-contain" />
             <div>
               <h1 className="text-base sm:text-lg font-bold text-slate-900 leading-tight">
                 Liberty Harbor
